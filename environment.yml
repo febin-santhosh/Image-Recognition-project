@@ -1,0 +1,25 @@
+name: gpu_env
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8
+  - cudatoolkit=11.3
+  - pytorch=1.10.0
+  - torchvision=0.11.1
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - jupyter
+  - ipykernel
+  - ipywidgets
+  - scikit-learn
+  - pillow
+  - pip
+  - pip:
+      - tensorflow==2.4.1
+      - keras==2.4.3
+      - tqdm
+      - seaborn
+      - imageio

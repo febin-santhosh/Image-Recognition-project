@@ -1,0 +1,41 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment/virtualenv
+.env
+.venv/
+venv/
+env/
+
+# Video or large media files
+*.mp4
+*.avi
+*.mov
+
+# Logs and cache
+*.log
+*.cache
+*.bak
+
+# Compiled files
+*.o
+*.exe
+
+#ignore files below
+DATA/
+.zip
+
+# Ignore all .h5 model files
+*.h5
